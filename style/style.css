@@ -84,11 +84,20 @@ h6 {
 .text-center {
   text-align: center;
 }
+.pt-0 {
+  padding-top: 0;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
 .section-title {
   font-size: 35px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+.section-column {
+  width: 558px;
 }
 /* Navbar Styles */
 nav#navbar {
@@ -146,9 +155,7 @@ nav#navbar {
   background-image: url(../images/developer.png);
   background-repeat: no-repeat;
 }
-.btn-container {
-  display: flex;
-}
+
 .btn-container .btn-primary {
   margin-right: 30px;
 }
@@ -234,9 +241,7 @@ nav#navbar {
   line-height: 30px;
 }
 /* Skills Styles */
-#Skill {
-  padding-top: 0;
-}
+
 .skill-title-area {
   display: flex;
   flex-direction: column;
@@ -272,4 +277,92 @@ nav#navbar {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
+}
+/* Resume Styles */
+
+.resume-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.resume-item h3 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.resume-item h4 {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+}
+.resume-item p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.resume-item {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+}
+.resume-item:last-child {
+  border-bottom: 0;
+}
+/* Footer */
+
+footer {
+  background: #fff8f3;
+  height: 780px;
+}
+.footer-content {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-content p {
+  color: #474747;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+.footer-form input,
+.footer-form textarea {
+  display: block;
+  border: 0;
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px 30px;
+  width: 100%;
+  margin-bottom: 24px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  line-height: 28px;
+}
+.footer-form input[type="submit"] {
+  display: inline;
+}
+.footer-form textarea {
+  height: 180px;
+}
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
 }
