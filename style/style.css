@@ -133,11 +133,16 @@ nav#navbar {
 #header-banner {
   height: 837px;
   width: 100%;
+}
+.header-banner-container {
+  height: 837px;
+  max-width: 1920px;
   background-image: url(../images/header_bg.png);
   background-position: right bottom;
   background-repeat: no-repeat;
+  background-color: rgba(255, 248, 243, 1);
+  margin: 0 auto;
 }
-
 .banner-content {
   display: flex;
   justify-content: space-between;
